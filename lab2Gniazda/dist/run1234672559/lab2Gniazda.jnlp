@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="lab2Gniazda.jnlp">
+  <information>
+    <title>lab2Gniazda</title>
+    <vendor>Kazanostra</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\lab2Gniazda-Preloader.jar" size="3065" download="progress" />
+    <jar href="lab2Gniazda.jar" size="9862" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="lab2Gniazda" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="lab2gniazda.Main"  name="lab2Gniazda"  preloader-class="lab2gniazda.preloader.lab2Gniazda_Preloader"/>
+  <update check="always"/>
+</jnlp>

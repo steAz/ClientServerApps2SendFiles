@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx/2.2" fx:controller="lab2gniazda.Controller">
+    <VBox>
+        <children>
+            <Button onAction="#startReceivingAction">Start receiving</Button>
+            <Button onAction="#sendFileAction">Send file</Button>
+            <Label fx:id="label"></Label>                        
+            <ProgressBar fx:id="progressBar" progress="0" />          
+        </children>
+    </VBox>
+</VBox>
